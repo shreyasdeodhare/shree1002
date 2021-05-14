@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <link rel=" stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <style>
+        .carousel-inner img {
+           width: 100%;
+          height: 100%;
+        }  
+    </style>
+  
+</head>
+<body onload="loader()">
+  <div id="loading"></div> 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Moneybank</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./customers.html">Begin here <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact-US</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ClickME
+                  </a>
+                  <div class="dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item " href="https://www.thesparksfoundationsingapore.org">Sparks foundation</a>
+                    <a class="dropdown-item " href="ourbranches.html ">Our Branches</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item " href="instructions.html">Instructions</a>
+                    <a class="dropdown-item " href="schemes.html">Schemes</a>
+                  </div>
+                </li>
+                <!--<li class="nav-item dropdown">
+                  <a href="#">Theme</a>
+                  <ul class="dropdown">
+                    <li class="dropdown-item">
+                      <a id="light" href="#">light</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="dark" href="#">dark</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="solar" href="#">solarize</a>
+                    </li>
+                  </ul>
+                </li>-->
+               
+              </ul>
+             
+            </div>
+       </nav>
+      </header>
+    <section>
+
+      <div class="container-fluid hero-content">
+        <h4 class="text-center text-capitalize text-warning  pt-5 first" data-aos="flip-down">MoneyBank-People'sBank </h4>
+        
+        <div class="row align-items-center">
+
+          <div class="col-md-12  col-sm-12  text-center unique"  data-aos="flip-up">
+           <h4 class= "text-success text-capitalize">Basic banking system </h4>
+            <h1 class="melast">Money Transaction secure and easy here.</h1>
+            <a class="get-started" href="./customers.html">  Here we begin</a>
+          </div>
+       </div>
+       <div class="col-md-12 col-sm-12 text-left " data-aos="flip-down">
+          <div class="hero-img-div">
+            <img class="img-fluid rounded  " src="bank.jpg" alt="img-showing-money-transfer" height="200px">
+          </div>
+        </div>    
+             
+
+      </div>
+    </section> 
+    <hr class="text-light">
+    <footer>
+
+     
+      <div class="col-md-6 text-center">
+          
+        <ul class="social">
+          <li> <a target="_blank" class="google" href="mailto:shreyasdeodhare18@gmail.com">  <i class=" fab fa-google fa-2x "> </i> </a> </li>
+          <li> <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/shreyas-deodhare-7b8989207trk=people-guest_people_search-card"> <i class="fab fa-linkedin fa-2x "></i> </a> </li>
+          <li> <a target="_blank" class="github" href="https://github.com/shreyasdeo189"> <i class="fab  fa-github fa-2x "> </i> </a> </li>
+         
+      </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+    
+   
+  <script>
+    var preloader = document.getElementById("loading");
+    function loader(){
+      preloader.style.display = 'none';
+    }
+  </script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+
+    </script>
+</body>
+</html>
